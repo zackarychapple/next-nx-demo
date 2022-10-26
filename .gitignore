@@ -37,3 +37,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# tailwind
+.turbo
+.vscode
+styles/dist.css

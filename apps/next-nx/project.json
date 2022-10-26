@@ -9,7 +9,8 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/next-nx",
-        "outputPath": "dist/apps/next-nx"
+        "outputPath": "dist/apps/next-nx",
+        "postcssConfig": "apps/next-nx/postcss.config.js"
       },
       "configurations": {
         "production": {}
@@ -19,7 +20,8 @@
       "executor": "@nrwl/next:server",
       "options": {
         "buildTarget": "next-nx:build",
-        "dev": true
+        "dev": true,
+        "postcssConfig": "apps/next-nx/postcss.config.js"
       },
       "configurations": {
         "production": {

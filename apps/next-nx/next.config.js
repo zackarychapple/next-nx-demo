@@ -10,6 +10,12 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
+  swcMinify: true,
+  experimental: {
+    // Required:
+    appDir: true,
+  },
 };
 
 module.exports = withNx(nextConfig);
